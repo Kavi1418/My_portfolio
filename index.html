@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of Kavidharshini D — a passionate Full Stack Developer crafting modern web experiences with clean code and creative design.">
+  <meta name="keywords" content="Full Stack Developer, Web Developer, Portfolio, CSE Student, Erode Sengunthar Engineering College">
+  <meta name="author" content="Kavidharshini D">
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Kavidharshini D — Full Stack Developer">
+  <meta property="og:description" content="Crafting digital experiences with modern web technologies.">
+  <meta property="og:type" content="website">
+
+  <title>Kavidharshini D — Full Stack Developer</title>
+
+  <!-- Favicon (emoji fallback) -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>💻</text></svg>">
+
+  <!-- Styles -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ====== NAVIGATION ====== -->
+  <nav class="navbar" id="navbar">
+    <div class="container nav-inner">
+      <a href="#hero" class="nav-logo">Kavi<span>.</span></a>
+
+      <div class="nav-links" id="nav-links">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#experience">Experience</a>
+        <a href="#contact" class="nav-cta">Let's Talk</a>
+      </div>
+
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+    <div class="nav-overlay" id="nav-overlay"></div>
+  </nav>
+
+  <!-- ====== HERO SECTION ====== -->
+  <section class="hero section" id="hero">
+    <div class="hero-shape hero-shape-1"></div>
+    <div class="hero-shape hero-shape-2"></div>
+
+    <div class="container hero-inner">
+      <div class="hero-content">
+        <div class="hero-badge">
+          <span class="dot"></span>
+          Available for new projects
+        </div>
+
+        <p class="hero-greeting">Hello, I'm</p>
+
+        <h1 class="hero-title">
+          <span class="line">Kavidharshini D</span>
+        </h1>
+
+        <div class="hero-role">
+          <span class="typing-text"></span><span class="typing-cursor"></span>
+        </div>
+
+        <p class="hero-description">
+          A 3rd year Computer Science Engineering student passionate about building modern web applications. Always learning, always creating.
+        </p>
+
+        <div class="hero-actions">
+          <a href="#projects" class="btn btn-primary">
+            View My Work <span class="btn-icon">→</span>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            Get In Touch
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-visual">
+        <div class="hero-avatar-wrapper">
+          <div class="hero-avatar">
+            <img src="assets/avatar.jpg" alt="Kavidharshini D — Full Stack Developer" onerror="this.style.display='none'; this.parentElement.textContent='👩‍💻';">
+          </div>
+          <div class="float-badge">⚛️ React</div>
+          <div class="float-badge">☕ Java</div>
+          <div class="float-badge">🟢 Node.js</div>
+          <div class="float-badge">🗄️ MySQL</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="hero-scroll-indicator">
+      <div class="scroll-mouse"></div>
+      <span>Scroll Down</span>
+    </div>
+  </section>
+
+  <!-- ====== ABOUT SECTION ====== -->
+  <section class="about section" id="about">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">About Me</span>
+        <h2 class="section-title">Passionate About <span class="accent">Code & Creativity</span></h2>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-image-wrapper reveal">
+          <div class="about-image">
+            <img src="assets/about.jpg" alt="About Kavidharshini D" onerror="this.style.display='none'; this.parentElement.textContent='👩‍💻';">
+          </div>
+          <div class="about-image-accent"></div>
+        </div>
+
+        <div class="about-content reveal reveal-delay-2">
+          <h3>Building the web, one line at a time.</h3>
+          <p>
+            Hi! I'm Kavidharshini, a 3rd year Computer Science Engineering student at <strong>Erode Sengunthar Engineering College</strong>. I'm passionate about full stack web development, problem-solving, and turning creative ideas into real-world applications.
+          </p>
+          <p>
+            I love exploring new technologies, building projects that solve real problems, and continuously improving my skills. From frontend design to backend logic, I enjoy the entire process of bringing an idea to life through code.
+          </p>
+
+          <div class="about-stats">
+            <div class="stat-card reveal reveal-delay-1">
+              <div class="stat-number" data-count="2" data-suffix="+ Yrs">0</div>
+              <div class="stat-label">Coding Experience</div>
+            </div>
+            <div class="stat-card reveal reveal-delay-2">
+              <div class="stat-number" data-count="6" data-suffix="+">0</div>
+              <div class="stat-label">Projects Built</div>
+            </div>
+            <div class="stat-card reveal reveal-delay-3">
+              <div class="stat-number" data-count="1" data-suffix="">0</div>
+              <div class="stat-label">Active Internship</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== SKILLS SECTION ====== -->
+  <section class="skills section" id="skills">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">My Skills</span>
+        <h2 class="section-title">Technologies I <span class="accent">Work With</span></h2>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Frontend -->
+        <div class="skill-category reveal reveal-delay-1">
+          <div class="skill-icon">🎨</div>
+          <h3>Frontend</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">HTML</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="90"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">CSS</span>
+                <span class="skill-percentage">85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="85"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">React</span>
+                <span class="skill-percentage">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="75"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Backend -->
+        <div class="skill-category reveal reveal-delay-2">
+          <div class="skill-icon">⚙️</div>
+          <h3>Backend</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Java</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Node.js</span>
+                <span class="skill-percentage">75%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="75"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">MySQL</span>
+                <span class="skill-percentage">78%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="78"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Tools -->
+        <div class="skill-category reveal reveal-delay-3">
+          <div class="skill-icon">🛠️</div>
+          <h3>Tools</h3>
+          <div class="skill-list">
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">Git / GitHub</span>
+                <span class="skill-percentage">80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="80"></div>
+              </div>
+            </div>
+            <div class="skill-item">
+              <div class="skill-info">
+                <span class="skill-name">VS Code</span>
+                <span class="skill-percentage">90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-bar-fill" data-width="90"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== PROJECTS SECTION ====== -->
+  <section class="projects section" id="projects">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">My Work</span>
+        <h2 class="section-title">Featured <span class="accent">Projects</span></h2>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card reveal reveal-delay-1">
+          <div class="project-image">
+            <div class="project-image-placeholder">💼</div>
+            <div class="project-overlay">
+              <a href="https://kavi1418.github.io/student-job-portal/" target="_blank" class="project-link" title="Live Demo">🌐</a>
+              <a href="https://github.com/Kavi1418/student-job-portal" target="_blank" class="project-link" title="Source Code">📂</a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Student Job Portal</h3>
+            <p>A web platform connecting students with job opportunities. Features job listings, profile management, search filters, and application tracking for students and recruiters.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="project-card reveal reveal-delay-2">
+          <div class="project-image">
+            <div class="project-image-placeholder">📦</div>
+            <div class="project-overlay">
+              <a href="https://github.com/Kavi1418" target="_blank" class="project-link" title="Source Code">📂</a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Smart Inventory Management System</h3>
+            <p>An intelligent inventory management web app with real-time stock tracking, automated alerts for low inventory, and a detailed analytics dashboard for businesses.</p>
+            <div class="project-tags">
+              <span class="project-tag">React</span>
+              <span class="project-tag">Java</span>
+              <span class="project-tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3 -->
+        <div class="project-card reveal reveal-delay-3">
+          <div class="project-image">
+            <div class="project-image-placeholder">🌿</div>
+            <div class="project-overlay">
+              <a href="https://github.com/Kavi1418" target="_blank" class="project-link" title="Source Code">📂</a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Garden Ecommerce Website</h3>
+            <p>A beautiful ecommerce platform for garden products and plants. Features product catalog, shopping cart, order management, and a clean user-friendly interface.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Node.js</span>
+              <span class="project-tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 4 -->
+        <div class="project-card reveal reveal-delay-4">
+          <div class="project-image">
+            <div class="project-image-placeholder">🌦️</div>
+            <div class="project-overlay">
+              <a href="https://kavi1418.github.io/weather-app/" target="_blank" class="project-link" title="Live Demo">🌐</a>
+              <a href="https://github.com/Kavi1418/weather-app" target="_blank" class="project-link" title="Source Code">📂</a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Weather Web App</h3>
+            <p>A real-time weather web application showing current weather conditions, forecasts, and interactive weather details using integration with a public weather API.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+              <span class="project-tag">Weather API</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 5 -->
+        <div class="project-card reveal reveal-delay-5">
+          <div class="project-image">
+            <div class="project-image-placeholder">❓</div>
+            <div class="project-overlay">
+              <a href="https://kavi1418.github.io/quizmaster-app" target="_blank" class="project-link" title="Live Demo">🌐</a>
+              <a href="https://github.com/Kavi1418/quizmaster-app" target="_blank" class="project-link" title="Source Code">📂</a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Quizmaster App</h3>
+            <p>An interactive quiz application with multiple categories, timer-based questions, and a dynamic scoring system to test knowledge.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 6 -->
+        <div class="project-card reveal reveal-delay-6">
+          <div class="project-image">
+            <div class="project-image-placeholder">💰</div>
+            <div class="project-overlay">
+              <a href="https://github.com/Kavi1418" target="_blank" class="project-link" title="Source Code">📂</a>
+            </div>
+          </div>
+          <div class="project-content">
+            <h3>Expense Tracker Web App</h3>
+            <p>A personal finance application to track daily expenses and income. Includes categorized spending, visual charts, and budget management features.</p>
+            <div class="project-tags">
+              <span class="project-tag">HTML</span>
+              <span class="project-tag">CSS</span>
+              <span class="project-tag">JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== EXPERIENCE SECTION ====== -->
+  <section class="experience section" id="experience">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Journey</span>
+        <h2 class="section-title">My <span class="accent">Journey</span> So Far</h2>
+      </div>
+
+      <div class="timeline">
+        <!-- Timeline Item 1 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2024 — Present</span>
+            <h3>B.E. Computer Science Engineering</h3>
+            <p class="timeline-company">Erode Sengunthar Engineering College</p>
+            <p>Currently in 3rd year, focusing on full stack development, data structures & algorithms, and building real-world projects. Active participant in coding clubs and hackathons.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2024 — Present</span>
+            <h3>Full Stack Developer Intern</h3>
+            <p class="timeline-company">Tarcin.in</p>
+            <p>Gained hands-on industry experience as a Full Stack Developer intern, building responsive web applications and collaborating with the development team on real client projects.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 3 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2024</span>
+            <h3>Paper Presentation</h3>
+            <p class="timeline-company">Technical Event Participation</p>
+            <p>Participated in paper presentations at technical symposiums, presenting research and innovative ideas in the field of computer science and web technologies.</p>
+          </div>
+        </div>
+
+        <!-- Timeline Item 4 -->
+        <div class="timeline-item reveal">
+          <div class="timeline-dot"></div>
+          <div class="timeline-card">
+            <span class="timeline-date">2021 — 2023</span>
+            <h3>Higher Secondary Education</h3>
+            <p class="timeline-company">St.Mary’s Higher Secondary School</p>
+            <p>Completed HSC with a focus on Computer Science, building a strong foundation in programming and software development that continues to drive my learning today.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== CONTACT SECTION ====== -->
+  <section class="contact section" id="contact">
+    <div class="container">
+      <div class="section-header reveal">
+        <span class="section-label">Contact</span>
+        <h2 class="section-title">Let's Work <span class="accent">Together</span></h2>
+      </div>
+
+      <div class="contact-grid">
+        <div class="contact-info reveal">
+          <h3>Get in touch</h3>
+          <p>Have a project in mind or want to collaborate? I'm always open to discussing new ideas, creative projects, or opportunities to be part of your vision.</p>
+
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-item-icon">📧</div>
+              <div class="contact-item-text">
+                <span>Email</span>
+                <a href="mailto:kavidharshini1417@gmail.com">kavidharshini1417@gmail.com</a>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">📍</div>
+              <div class="contact-item-text">
+                <span>Location</span>
+                <p>Erode, Tamil Nadu</p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <div class="contact-item-icon">📱</div>
+              <div class="contact-item-text">
+                <span>Phone</span>
+                <a href="tel:+919080776376">+91 90807 76376</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="social-links">
+            <a href="https://github.com/Kavi1418" target="_blank" class="social-link" title="GitHub" aria-label="GitHub">🐙</a>
+            <a href="https://www.instagram.com/kavidharshini_duraisamy/" target="_blank" class="social-link" title="Instagram" aria-label="Instagram">📷</a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal reveal-delay-2" id="contact-form">
+          <div class="form-row">
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" placeholder="John Doe" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" placeholder="john@example.com" required>
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="subject">Subject</label>
+            <input type="text" id="subject" name="subject" placeholder="Project Inquiry">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" placeholder="Tell me about your project..." required></textarea>
+          </div>
+          <button type="submit" class="btn-submit">
+            Send Message <span>→</span>
+          </button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- ====== FOOTER ====== -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <div class="footer-logo">Kavi<span>.</span></div>
+      <p class="footer-text">© 2026 Kavidharshini D. Built with ❤️ and lots of ☕</p>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="script.js"></script>
+</body>
+</html>
